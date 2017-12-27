@@ -8,7 +8,7 @@ def card_tap_handler(card_info):
 		print('Error reading card, Error: {0}'.format(card_info.error))
 		return
 	
-	print('Card reader, user id: {0}'.format(card_info.card_details.user_id))
+	print('Card read, user id: {0}'.format(card_info.card_details.user_id))
 	
 	'''Your code goes here!
 	Do whatever you want with the accepted User ID!
