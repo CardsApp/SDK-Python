@@ -1,0 +1,1 @@
+**For detailed information on the SDK visit the [overview](https://cards.app/Developers/CardReader/Overview), [requirements](https://cards.app/Developers/CardReader/Requirements) and [getting started](https://cards.app/Developers/CardReader/GettingStarted) pages in our website.**
