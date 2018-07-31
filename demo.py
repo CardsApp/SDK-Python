@@ -6,10 +6,10 @@ This event is raised when a user taps his phone on the reader.
 """
 def card_tap_handler(card_info):
     if not card_info.is_success:
-        print('Error reading card, Error: %d' % card_info.error)
+        print('Failed reading card, error: %d' % card_info.error)
         return
 
-    print('Card read, user id: %s' % card_info.card_details.user_id)
+    print('Card read, user ID: %s' % card_info.card_details.user_id)
 
     '''
     Your code goes here!
